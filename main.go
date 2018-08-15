@@ -181,6 +181,8 @@ func stream(w http.ResponseWriter, r *http.Request) {
 				} else if resp.StatusCode == 200 {
 					audioInstances[clientID].Enqueue(resp.Body)
 				}
+			} else if args[0] == "skip" {
+				audioInstances[clientID].Skip()
 			}
 /*			err = c.WriteMessage(mt, message)
 			if err != nil {
