@@ -9,12 +9,12 @@ import (
 	"html/template"
 	"github.com/nu7hatch/gouuid"
 	"io"
-	"github.com/justync7/librespot-golang/src/librespot/core"
+	"github.com/lustyn/librespot-golang/src/librespot/core"
 	"strings"
-	"github.com/justync7/librespot-golang/src/librespot"
+	"github.com/lustyn/librespot-golang/src/librespot"
 	"io/ioutil"
-	"github.com/justync7/librespot-golang/src/librespot/utils"
-	"github.com/justync7/librespot-golang/src/Spotify"
+	"github.com/lustyn/librespot-golang/src/librespot/utils"
+	"github.com/lustyn/librespot-golang/src/Spotify"
 )
 
 const (
